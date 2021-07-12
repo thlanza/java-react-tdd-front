@@ -9,8 +9,5 @@ deploy:
   provide: heroku
   api_key: $HEROKU_TOKEN
   app: book-store-tdd-front
-  skip_cleanup: true
   on:
-  branches:   
-    only:      
-      - main 
+    branch: "main"
