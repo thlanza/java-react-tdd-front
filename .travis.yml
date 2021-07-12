@@ -10,3 +10,7 @@ deploy:
   api_key: $HEROKU_TOKEN
   app: book-store-tdd-front
   skip_cleanup: true
+  on:
+  branches:   
+    only:      
+      - main 
